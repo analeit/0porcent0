@@ -1,0 +1,637 @@
+/* CSS FILE */
+
+ /* 0PORCENT0
+    Designed and coded by Ana Leite 
+    08.04.2022 */
+
+  /* RESET ______________________________________*/
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+
+
+  /* GENERAL SETTINGS ______________________________________*/
+
+  :root {
+    /* colors */
+    --background-color: #F2F2F2;
+    --orange: #FF5408;
+    --dark-orange:#d74100;
+    --yellow: #FFF95B;
+    --grey: #acacac;
+    --dark-grey: #1F1F1F;
+  }
+
+  /* local fonts */
+  @font-face {
+    font-family: Editorial-New-Regular;
+    src: url(fonts/PPEditorialNew-Free/PPEditorialNew-Regular.otf);
+  }
+
+  body {
+    /*color*/
+    background-color: var(--background-color);
+    color: var(--orange);
+    /* font*/
+    font-family: Editorial-New-Regular;
+    font-size: 3vh;
+  }
+
+  /* selection color
+  Code for Firefox */
+  ::-moz-selection {
+    color: var(--orange);
+    background: #B8FF72;
+  }
+
+  ::selection {
+    color: var(--orange);
+    background: #B8FF72;
+  }
+
+
+
+  /* TEXT */
+  /*
+  em {
+    font-family: 'Poppins-italic';
+  }
+
+  strong {
+    font-family: 'Poppins-semibold';
+  }
+  */
+
+  a {
+    color: var(--orange);
+  }
+
+  p {
+    padding-bottom: 3vh;
+  }
+
+  h2 {
+    font-size: 5vh;
+    padding-bottom: 3vh;
+  }
+
+  h3 {
+    font-size: 2vh;
+  }
+
+
+  /* HEADER ______________________________________*/
+
+  header {
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    top: 2vh;
+    left: 2vw;
+    right: 2vw;
+    z-index:2;
+  }
+
+  header a {
+    cursor: pointer;
+  }
+
+
+  #see-all {
+    margin-right: 110px;
+  }
+
+/*
+  .align-switch{
+    display: flex;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}*/
+
+
+
+  /* BACK HOME 
+  header :nth-child(1){
+    position: fixed;
+    left: 2vw;
+  }*/
+
+  /* SHOW ALL 
+  header :nth-child(2){
+    position: fixed;
+    right: 2vw;
+  } */
+
+
+
+
+  /* TOGGLE BUTTON ON/OFF
+  !!!! 2 !!!!*/
+  span.switcher {
+    position: fixed;
+    top: 1vh;
+    right: 2vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    /*width:200px;*/
+    width:100px;
+    height:50px;
+    border-radius: 25px;
+    /*margin:20px 0;*/
+  }
+
+  span.switcher input {
+    appearance: none;
+    position: relative;
+    width:100px;
+    height:40px;
+    border-radius:25px;
+    border: 4px solid var(--orange);
+    outline:none;
+    transition:.25s -.1s;
+    font-family: Editorial-New-Regular;
+    font-size: 2vh;
+  }
+
+  span.switcher input::before {
+    z-index:2;
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    color: var(--orange);
+
+    content: 'ON';
+    left:10px;
+  }
+
+  span.switcher input::after {
+    z-index:2;
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    color: var(--orange);
+
+    content: 'OFF';
+    right:7px;
+  }
+
+  span.switcher input:checked:before {
+    color:white;
+    transition: color .5s .2s
+  }
+
+  span.switcher input:checked:after {
+    color:var(--orange);
+    transition: color .5s;
+  }
+
+  span.switcher input:checked+label {
+    /*left:55px;
+    right:100px;*/
+    right: 50px;
+    left: 7px;
+    background:var(--orange);
+    transition: left .5s, right .4s .2s;
+  }
+
+  span.switcher input:not(:checked) {
+    transition: background .1s;
+  }
+
+  span.switcher input:not(:checked):before {
+    color:var(--orange);
+    transition: color .5s;
+  }
+
+  span.switcher input:not(:checked):after {
+    color:white;
+    transition: color .5s .2s
+  }
+
+  span.switcher input:not(:checked)+label {
+    /*left:100px;
+    right:55px;*/
+    left:50px;
+    background:var(--orange);
+    transition: left .4s .2s, right .5s, background-color .35s -.1s;
+  }
+
+  span.switcher label {
+    z-index:1;
+    position: absolute;
+    top:10px;
+    bottom:10px;
+    border-radius:20px;
+    /**/
+    width: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* MAIN ______________________________________*/
+
+  /* HOME ______________________________________*/
+  #home {
+    /*background-image */
+    background: url("images/logo-bg.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: center; 
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+  }
+
+  #home div:hover {
+    background-color: var(--orange);
+    color: var(--background-color);
+    /* inner shadow */
+    -moz-box-shadow: inset 0 0 10px var(--dark-orange);
+    -webkit-box-shadow: inset 0 0 10px var(--dark-orange);
+    box-shadow: inset 0 0 10px var(--dark-orange);
+  }
+
+  /* NAV HOME */
+  .nav-about , .nav-info {
+    position:absolute;
+    background-color: var(--background-color);
+    box-shadow: 1px 1px 15px var(--orange);
+
+    /*
+    box-shadow:
+    0 2.8px 2.2px var(--orange),
+    0 6.7px 5.3px var(--orange),
+    0 12.5px 10px var(--orange),
+    0 22.3px 17.9px var(--orange),
+    0 41.8px 33.4px var(--orange),
+    0 100px 80px var(--orange);*/
+
+    padding: 15px;
+    text-align: center;
+    font-size: 15vh;
+    
+    /*center text on box*/
+    padding-top: 7vh;
+    line-height: 50%;
+
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  /* BUTTON ABOUT */
+  .nav-about {
+    top: 18vh;
+    left: 10vw;
+    /*parallax*/
+    transform: translateX(calc(var(--x)/20)) translateY(calc(var(--y)/20));
+  }
+
+  /* BUTTON INFO */
+  .nav-info {
+    bottom: 30vh;
+    right: 20vw;
+    /*parallax*/
+    transform: translateX(calc(var(--x)/-20)) translateY(calc(var(--y)/-20));
+  }
+
+  /* definição da área de alteração do mouse*/
+  .click {
+    position:fixed;
+    left: 20vw;
+    right: 20vw;
+    top:30vh;
+    bottom: 30vh;
+    opacity: 0;
+  }
+
+/* CURSOR */
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange);
+  transition: 0.1s;
+  pointer-events: none;
+}
+
+/* quando em cima da área definida muda o cursor*/
+.click:hover ~ .cursor {
+  width: 100px;
+  height: 100px;
+  background-image: url("images/icon-post-it-2-2.png" );
+}
+
+
+
+
+
+  /* POP UPS ______________________________________*/
+
+  #popup-space {
+    display: none;
+    position: absolute;
+    top: 8vh;
+    bottom: 8vh;
+    left: 3vw;
+    right: 3vw;
+    border: 2px solid greenyellow;
+  }
+
+
+
+.popup {
+  position: relative;
+  /*display: table-cell;*/
+
+  max-width: 25vh;
+  /* largura auto - variável*/
+  max-height: 15vh;
+  /*???? variável - redondo ou retangular
+  border-radius: 50%;*/
+  padding: 2vh;
+  
+  background-color: var(--orange);
+  box-shadow: 1px 1px 15px var(--orange);
+  color: var(--background-color);
+
+  border: 1px solid yellowgreen;
+
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+
+  /* INPUT PAGE ______________________________________*/
+  #input-page {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  /* cancel */
+  #input-page button{
+    position: absolute;
+    margin: 0;
+    top: 4vh;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+
+  /* input text */
+  #button-input-page-text {
+    position: absolute;
+    top:20vh;
+    left:20vw;
+    height: 20vh;
+    width: 20vw;
+    padding: 4vh;
+
+    text-align: center;
+
+    background-color: var(--orange);
+    color: var(--background-color);
+  }
+
+  /* input draw */
+  #button-input-page-draw {
+    position: absolute;
+    bottom:20vh;
+    right:20vw;
+    height: 30vh;
+    width: 20vw;
+    padding: 4vh;
+
+    /*inner shadow */
+    box-shadow: inset 0 0 10px var(--orange);
+
+    background-color: var(--background-color);
+    color: var(--orange);
+  }
+
+  /* input image */
+  #button-input-page-img {
+    position: absolute;
+    bottom:30vh;
+    left:30vw;
+    height: 10vh;
+    width: 15vw;
+  }
+
+  #button-input-page-img img {
+    width: 100%;
+  }
+
+
+
+  /* INPUT PAGE TEXT */
+  #input-page-text {
+    position: fixed;
+    display: none;
+    top: 25vh;
+    bottom: 25vh;
+    left: 30vw;
+    right: 30vw;
+    z-index: 2;
+    background-color: var(--orange);
+    color: var(--background-color);
+    padding: 4vh;
+  }
+
+  #input-page-text h2 , h3{
+    text-align: center;
+    padding: 0;
+  }
+
+  #input-page-text :nth-child(2) {
+    height: 50%;
+  }
+
+  /* todas text areas*/
+  textarea{
+    font-family: 'Editorial-New-Regular';
+    font-size: 4vh;
+    text-align: center;
+    resize: none;
+    background-color: var(--orange);
+    color: var(--background-color);
+    border: none;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+textarea:focus {
+  outline: none;
+}
+
+textarea::placeholder {
+  font-size: 4vh;
+  color: var(--background-color);
+  opacity: 0.5;
+}
+
+
+
+
+  /* INFO ______________________________________*/
+
+  #info {
+    position: absolute;
+    display: none;
+    bottom: 8vh;
+    top: 8vh;
+
+    z-index: 2;
+    overflow: hidden;
+
+    height: auto;
+
+    /*slide ?????*/
+    width: 0;
+    transition: .5s ease;
+    right: 100%;
+  }
+
+  .info-img img {
+    width: 60px;
+  }
+
+  .info-text {
+    background-color: var(--orange);
+    box-shadow: 1px 1px 15px var(--orange);
+    color: var(--background-color);
+    padding: 40px;
+  }
+
+
+  
+
+
+  /* ABOUT ______________________________________*/
+
+  #about {
+    display: none;
+  }
+  #about video {
+    width: 100vw;
+  }
+
+  .about-text {
+    display: block;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    margin-left: 6vw;
+    margin-right:6vw;
+    /* inner shadow */
+    -moz-box-shadow: inset 0 0 10px var(--orange);
+    -webkit-box-shadow: inset 0 0 10px var(--orange);
+    box-shadow: inset 0 0 10px var(--orange);
+
+    padding: 2vh;
+    font-size: 6vh;
+  }
+
+  .about-a-i {
+    margin-top: 10vh;
+    margin-left: 6vw;
+    margin-right:6vw;
+    display: grid;
+    grid-template-columns: 20% 35% 35%;
+    grid-column-gap: 5%;
+  }
+
+  /* ARCHIVE ______________________________________*/
+
+  #archive {
+    display: none;
+  }
+
+
+  /* FOOTER ______________________________________*/
+
+  footer nav{
+    display: flex;
+    position: fixed;
+    bottom: 2vh;
+    left: 2vw;
+    right: 2vw;
+}
+
+  footer div {
+    right: 0;
+    position: absolute;
+  }
+
+  footer div a{
+    padding-left: 2vw;
+  }
+  
+
+  /* BUTTON ARCHIVE*/
+.button-archive {
+  background-image: url(/images/tab-archive-01.png);
+  background-size: 100%;
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+
+  position: fixed;
+  bottom: 0;
+  /*????? centrar ?????*/
+  left: 42%;
+  width: 300px;
+
+  text-align: center;
+  font-family: Editorial-New-Regular;
+  color: var(--background-color);
+  font-size: 3vh;
+  padding: 2vh;
+}
+
+
+  /* RESPONSIVE MEDIA ______________________________________*/
