@@ -1,0 +1,64 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 30 Jun 2022 09:20:21 at http://localhost:81/0porcent0 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost:81/0porcent0 -O1 "C:\Users\Utilizador\Desktop\0porcent0-static-30-06" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:23:03	Warning: 	Retry after error -4 (Incorrect length (828968 Bytes, 3499378 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-3.jpg (from localhost:81/0porcent0/)
+11:01:49	Error: 	"Not Found" (404) at link localhost:81/0porcent0/wp-content/themes/0porcent0_template/images/icon-drag-02.png (from localhost:81/0porcent0/wp-content/themes/0porcent0_template/style.css)
+11:01:49	Warning: 	Moved Permanently for localhost:81/0porcent0/?p=21
+11:01:49	Warning: 	File has moved from localhost:81/0porcent0/?p=21 to http://localhost:81/0porcent0/about/
+11:01:49	Error: 	"Not Found" (404) at link https://unpkg.com/@google/model-viewer@1.12.0/dist/model-viewer-legacy.js (from localhost:81/0porcent0/about/)
+11:01:49	Warning: 	File not parsed, looks like binary: localhost:81/0porcent0/wp-content/themes/0porcent0_template/images/scan_3d_ana_ines.glb
+12:33:31	Warning: 	file not stored in cache due to bogus state (broken size, expected 137545758 got 130023424): localhost:81/0porcent0/wp-content/themes/0porcent0_template/videos/meet_0porcent0.mp4
+12:33:31	Warning: 	Retry after error -4 (Incorrect length (130023424 Bytes, 137545758 expected)) at link localhost:81/0porcent0/wp-content/themes/0porcent0_template/videos/meet_0porcent0.mp4 (from localhost:81/0porcent0/about/)
+12:33:31	Warning: 	Moved Permanently for localhost:81/0porcent0/?cat=4
+12:33:31	Warning: 	File has moved from localhost:81/0porcent0/?cat=4 to http://localhost:81/0porcent0/category/talks/
+12:33:31	Warning: 	Moved Permanently for localhost:81/0porcent0/?cat=3
+12:33:31	Warning: 	File has moved from localhost:81/0porcent0/?cat=3 to http://localhost:81/0porcent0/category/zines/
+12:33:47	Warning: 	Retry after error -4 (Incorrect length (873365 Bytes, 3278807 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/talk-andaime4.png (from localhost:81/0porcent0/archive/)
+12:33:48	Warning: 	Retry after error -4 (Incorrect length (872940 Bytes, 4161925 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/talk-andaime5.png (from localhost:81/0porcent0/archive/)
+12:33:50	Warning: 	Retry after error -4 (Incorrect length (873062 Bytes, 5355798 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/talk-espinho.jpg (from localhost:81/0porcent0/archive/)
+12:36:09	Warning: 	Retry after error -4 (Incorrect length (873420 Bytes, 2862143 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/VID-20220319-WA0014.mp4 (from localhost:81/0porcent0/archive/)
+12:36:12	Warning: 	Retry after error -4 (Incorrect length (872777 Bytes, 5269000 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/06/prints.mov (from localhost:81/0porcent0/archive/)
+12:38:35	Warning: 	Retry after error -4 (Incorrect length (24441670 Bytes, 28212014 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/06/talk_5.mov (from localhost:81/0porcent0/archive/)
+12:40:17	Warning: 	Retry after error -4 (Incorrect length (16585684 Bytes, 21068444 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/conversa-4-03.png (from localhost:81/0porcent0/archive/)
+12:40:56	Warning: 	Retry after error -4 (Incorrect length (872326 Bytes, 4041106 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/IMG-1482.jpg (from localhost:81/0porcent0/archive/)
+12:41:30	Warning: 	Retry after error -4 (Incorrect length (3491304 Bytes, 7010931 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/OPORCENT0-1-02.jpg (from localhost:81/0porcent0/archive/)
+12:42:47	Warning: 	Retry after error -4 (Incorrect length (871987 Bytes, 5279266 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-2.png (from localhost:81/0porcent0/archive/)
+12:42:56	Warning: 	Retry after error -4 (Incorrect length (53985477 Bytes, 56550087 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/06/zine_0.mov (from localhost:81/0porcent0/archive/)
+12:43:18	Warning: 	Retry after error -4 (Incorrect length (872008 Bytes, 3323073 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-8.png (from localhost:81/0porcent0/archive/)
+12:43:52	Warning: 	Retry after error -4 (Incorrect length (872809 Bytes, 4932853 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-7.png (from localhost:81/0porcent0/archive/)
+12:45:08	Warning: 	Retry after error -4 (Incorrect length (3492082 Bytes, 6308472 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-4.jpg (from localhost:81/0porcent0/archive/)
+12:46:13	Warning: 	Retry after error -4 (Incorrect length (3491273 Bytes, 6158358 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-5.jpg (from localhost:81/0porcent0/archive/)
+12:47:30	Warning: 	Retry after error -4 (Incorrect length (3491526 Bytes, 5914198 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-6.jpg (from localhost:81/0porcent0/archive/)
+12:49:50	Warning: 	Retry after error -4 (Incorrect length (873131 Bytes, 4117998 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-1.jpg (from localhost:81/0porcent0/archive/)
+12:49:55	Warning: 	Retry after error -4 (Incorrect length (873249 Bytes, 4304643 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-1.png (from localhost:81/0porcent0/archive/)
+12:52:12	Warning: 	Retry after error -4 (Incorrect length (873390 Bytes, 2931846 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-4.png (from localhost:81/0porcent0/archive/)
+12:52:16	Warning: 	Retry after error -4 (Incorrect length (133517859 Bytes, 137545758 expected)) at link localhost:81/0porcent0/wp-content/themes/0porcent0_template/videos/meet_0porcent0.mp4 (from localhost:81/0porcent0/about/)
+12:53:25	Warning: 	Moved Permanently for localhost:81/0porcent0/?p=99
+12:53:25	Warning: 	File has moved from localhost:81/0porcent0/?p=99 to http://localhost:81/0porcent0/artists/
+12:53:25	Warning: 	Retry after error -4 (Incorrect length (1745587 Bytes, 4161925 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/talk-andaime5.png (from localhost:81/0porcent0/archive/)
+12:54:02	Warning: 	Retry after error -4 (Incorrect length (1746701 Bytes, 5355798 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/talk-espinho.jpg (from localhost:81/0porcent0/archive/)
+12:54:38	Warning: 	Retry after error -4 (Incorrect length (1744706 Bytes, 5269000 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/06/prints.mov (from localhost:81/0porcent0/archive/)
+12:56:23	Warning: 	Retry after error -4 (Incorrect length (25317040 Bytes, 28212014 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/06/talk_5.mov (from localhost:81/0porcent0/archive/)
+12:56:59	Warning: 	Retry after error -4 (Incorrect length (17457624 Bytes, 21068444 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/conversa-4-03.png (from localhost:81/0porcent0/archive/)
+12:57:45	Warning: 	Retry after error -4 (Incorrect length (1749133 Bytes, 4041106 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/IMG-1482.jpg (from localhost:81/0porcent0/archive/)
+12:58:45	Warning: 	Retry after error -4 (Incorrect length (4368508 Bytes, 7010931 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/OPORCENT0-1-02.jpg (from localhost:81/0porcent0/archive/)
+12:59:21	Warning: 	Retry after error -4 (Incorrect length (1745361 Bytes, 5279266 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-2.png (from localhost:81/0porcent0/archive/)
+12:59:56	Warning: 	Retry after error -4 (Incorrect length (1745560 Bytes, 4932853 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-7.png (from localhost:81/0porcent0/archive/)
+13:01:43	Warning: 	Retry after error -4 (Incorrect length (4365098 Bytes, 6308472 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-4.jpg (from localhost:81/0porcent0/archive/)
+13:02:17	Warning: 	Retry after error -4 (Incorrect length (1744999 Bytes, 4117998 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-1.jpg (from localhost:81/0porcent0/archive/)
+13:03:55	Warning: 	Retry after error -4 (Incorrect length (1746012 Bytes, 4304643 expected)) at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-1.png (from localhost:81/0porcent0/archive/)
+13:05:52	Error: 	"Incorrect length (134391685 Bytes, 137545758 expected)" (-4) after 2 retries at link localhost:81/0porcent0/wp-content/themes/0porcent0_template/videos/meet_0porcent0.mp4 (from localhost:81/0porcent0/about/)
+13:05:52	Error: 	"Incorrect length (2619690 Bytes, 5355798 expected)" (-4) after 2 retries at link localhost:81/0porcent0/wp-content/uploads/2022/05/talk-espinho.jpg (from localhost:81/0porcent0/archive/)
+13:05:52	Error: 	"Incorrect length (2617437 Bytes, 5269000 expected)" (-4) after 2 retries at link localhost:81/0porcent0/wp-content/uploads/2022/06/prints.mov (from localhost:81/0porcent0/archive/)
+13:05:52	Error: 	"Incorrect length (26190318 Bytes, 28212014 expected)" (-4) after 2 retries at link localhost:81/0porcent0/wp-content/uploads/2022/06/talk_5.mov (from localhost:81/0porcent0/archive/)
+13:05:52	Error: 	"Incorrect length (18331102 Bytes, 21068444 expected)" (-4) after 2 retries at link localhost:81/0porcent0/wp-content/uploads/2022/05/conversa-4-03.png (from localhost:81/0porcent0/archive/)
+13:05:52	Error: 	"Incorrect length (2618066 Bytes, 5279266 expected)" (-4) after 2 retries at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-2.png (from localhost:81/0porcent0/archive/)
+13:05:52	Error: 	"Incorrect length (2617197 Bytes, 4932853 expected)" (-4) after 2 retries at link localhost:81/0porcent0/wp-content/uploads/2022/05/zine-0-7.png (from localhost:81/0porcent0/archive/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 hours 47 minutes 45 seconds : 161 links scanned, 113 files written (357439648 bytes overall) [545311242 bytes received at 39905 bytes/sec], 2210275 bytes transferred using HTTP compression in 51 files, ratio 27%, 1.5 requests per connection
+(9 errors, 44 warnings, 0 messages)
